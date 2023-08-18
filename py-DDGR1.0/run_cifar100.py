@@ -26,7 +26,7 @@ cmd = "CUDA_VISIBLE_DEVICES=0 python main.py --class_incremental --method_name D
                 "--diffusion_lr 1e-4 " \
                 "--diffusion_batch_size 64 " \
                 "--classifier_batch_size 32 " \
-                "--classifier_path src/data/models/64x64_classifier.pt --classifier_depth 4 " \
+                "--classifier_depth 4 " \
                 "--num_samples 20 --timestep_respacing 250 " \
                 "--DDGR_generator_factor 0.25 "
 os.system(cmd)
@@ -53,10 +53,7 @@ cmd = "CUDA_VISIBLE_DEVICES=0 python main.py --class_incremental --method_name D
                 "--diffusion_lr 1e-4 " \
                 "--diffusion_batch_size 64 " \
                 "--classifier_batch_size 32 " \
-                "--classifier_path src/data/models/64x64_classifier.pt --classifier_depth 4 " \
+                "--classifier_depth 4 " \
                 "--num_samples 20 --timestep_respacing 250 " \
                 "--DDGR_generator_factor 0.25 "
 os.system(cmd)
-
-
-
