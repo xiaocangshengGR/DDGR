@@ -25,7 +25,7 @@ Automatic download.
 You should download the ImageNet manually and process the images into "src/data/datasets/ImageNet/imagenet-1000/".
 The directory is:
 ```
-├── py-DDGR                               # The main code directory
+├── py-DDGR1.0                               # The main code directory
 │   ├── src                
 │   │  ├── data 
 │   │  │  ├── datasets
@@ -54,7 +54,7 @@ python run_cifar100.py
 The file structure of directory is as follows:
 ```
 .
-├── py-DDGR                               # The main code directory
+├── py-DDGR1.0                            # The main code directory
 │   ├── src                
 │   │  ├── data                           # The directory contains the dataset.
 │   │  ├── framework                      # The directory contains the framework of continual learning.
